@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LGL Forum</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/runcss/dist/runcss.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/runcss/dist/runcss.min.js" defer watch></script>
+</head>
+
+<body>
+
+  <div class="shadow-lg shadow-black  fixed px-2 space-x-2 flex top-0 left-0 right-0 bg-[#1d3649] h-[60px] lg:hidden content-center items-center text-white">
+    <div class="px-3 cursor-pointer hover:bg-[#162937] rounded-md py-2">
+      <i class="zmdi zmdi-menu"></i>
+    </div>
+    <div class="flex-1">
+      <img src="logo.png" class="h-[30px] hidden sm:block">
+      <img src="lgltrasp.png" class="h-[30px] sm:hidden">
+
+    </div>
+    <div class="px-3 cursor-pointer hover:bg-[#162937] rounded-md py-2">
+      <i class="zmdi zmdi-account"></i>
+      Account
+    </div>
+  </div>
+
+  <!-- navbar sinistra -->
+  <aside class="fixed hidden lg:block bg-[#1d3649] top-0 bottom-0 left-0 w-[220px] overflow-y-auto shadow-2xl shadow-black">
+    <nav class="flex flex-col">
+      <img class="mx-auto my-6 w-[80px]" src="lgltrasp.png">
+      <div class="border-b-2 border-slate-500 mb-2"></div>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-home"></i> News</a>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-book-image"></i> Magazine</a>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-book"></i> Librinostri</a>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-twitter"></i> I Corti di LGL</a>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-balance"></i> Forum</a>
+      <div class="border-b-2 border-slate-500 my-2"></div>
+      <p class="pl-6 py-[6px] text-slate-500 uppercase text-sm">Altre risorse</p>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-download"></i> Download</a>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-star"></i> Recensioni</a>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-local-library"></i> Enciclopedia</a>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-edit"></i> Editor librogame</a>
+      <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
+          class="zmdi zmdi-info"></i> Chi siamo</a>
+      <div class="border-b-2 border-slate-500 my-2"></div>
+
+    </nav>
+    <script>
+
+
+    </script>
+  </aside>
+
+  <!-- panel a destra -->
+  <div class="fixed hidden top-0 bottom-0 right-0 bg-white text-xl lg:flex flex-col w-[210px]">
+    <div class="pt-6 mb-3 mx-auto space-x-1">
+      <button class="shadow-black shadow-3xl bg-[#1d3649] w-12 h-12 mb-2 rounded-xl text-white">
+        <i class="zmdi zmdi-facebook"></i>
+      </button>
+      <button class="shadow-black shadow-3xl bg-[#1d3649] w-12 h-12 mb-2 rounded-xl text-white">
+        <i class="zmdi zmdi-twitter"></i>
+      </button>
+      <button class="shadow-black shadow-3xl bg-[#1d3649] w-12 h-12 mb-2 rounded-xl text-white">
+        <i class="zmdi zmdi-instagram"></i>
+      </button>
+
+    </div>
+
+    <div class="border-l-4 border-[#1d3649] px-3 pb-4 mb-6">
+      <!-- <p class="text-slate-500 mb-2">Login</p> -->
+      <input class="bg-transparent text-sm" type="text" placeholder="Nome utente...">
+      <input class="mb-1 bg-transparent text-sm" type="password" placeholder="Password...">
+
+      <div class="flex items-center mt-2">
+        <button class="px-5 py-2 bg-[#185cae] mr-2 rounded-md text-slate-300 text-sm text-center">Login</button>
+        <button class="text-sm py-2 bg-gray-200 text-gray-700 rounded-md flex-1 text-center">Registrati</button>
+      </div>
+      <button class="text-xs text-center">Recupera password</button>
+    </div>
+   <!-- 
+    <div class="border-l-4 border-[#1d3649] px-3  pb-4 mb-6">
+      <p class="text-slate-500">Cerca</p>
+      <input class="bg-transparent text-sm" type="text" placeholder="Trova nel sito...">
+    </div>
+  -->  
+
+    <div class="border-l-4 border-[#1d3649] px-3  pb-4 mb-6">
+      <p class="text-slate-500 mb-4 text-md">Il Sondaggione!</p>
+      <p class="font-bold text-xs">Inizia il 2024: come sarà questo nuovo anno a livello di diffusione editoriale dei LG?</p>
+      <fieldset class="space-y-2 py-2">
+        <div class="flex space-x-3">
+          <input type="radio">
+          <label class="text-xs leading-4">ci saranno un sacco di librogame nuovi</label>
+        </div>
+        <div class="flex space-x-3">
+          <input type="radio">
+          <label class="text-xs leading-4">non ci saranno librogame nuovi</label>
+        </div>
+        <div class="flex space-x-3">
+          <input type="radio">
+          <label class="text-xs leading-4">ci saranno un sacco di librogame nuovi</label>
+        </div>
+        <div class="flex space-x-3">
+          <input type="radio">
+          <label class="text-xs leading-4">ci saranno un sacco di librogame nuovi</label>
+        </div>
+        <div class="flex space-x-3">
+          <input type="radio">
+          <label class="text-xs leading-4">ci saranno un sacco di librogame nuovi</label>
+        </div>
+      </fieldset>
+    </div>
+
+    
+
+
+
+  </div>
+
+
+  <main class="lg:ml-[320px] lg:mr-[280px] pt-[50px] lg:pt-0">
+    <div id="page" class=" mx-auto w-[750px] max-w-full">
+      <img src="news.png" class="mt-[40px] max-w-[95vw] w-full">
+    </div>
+  </main>
+
+</body>
+
+</html>
