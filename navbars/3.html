@@ -9,11 +9,6 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/runcss/dist/runcss.min.css">
   <script src="https://cdn.jsdelivr.net/npm/runcss/dist/runcss.min.js" defer watch></script>
-  <style>
-    body, * {
-      font-family: arial, Helvetica, sans-serif;
-    }
-  </style>
 </head>
 
 <body>
@@ -61,18 +56,7 @@
       <a class="pl-6 py-[6px] text-white border-[#185cae] hover:bg-[#2f485c] hover:border-l-8 hover:pl-[16px]"><i
           class="zmdi zmdi-info"></i> Chi siamo</a>
       <div class="border-b-2 border-slate-500 my-2"></div>
-    <div class="mb-3 mx-auto space-x-1">
-      <button class="shadow-black shadow-3xl bg-[#1d3649] w-12 h-12 mb-2 rounded-xl text-white">
-        <i class="text-xl zmdi zmdi-facebook"></i>
-      </button>
-      <button class="shadow-black shadow-3xl bg-[#1d3649] w-12 h-12 mb-2 rounded-xl text-white">
-        <i class="text-xl zmdi zmdi-twitter"></i>
-      </button>
-      <button class="shadow-black shadow-3xl bg-[#1d3649] w-12 h-12 mb-2 rounded-xl text-white">
-        <i class="text-xl zmdi zmdi-instagram"></i>
-      </button>
-    
-    </div>
+
     </nav>
     <script>
 
@@ -81,18 +65,30 @@
   </aside>
 
   <!-- panel a destra -->
-  <div class="fixed hidden top-8 bottom-0 right-2 bg-white text-xl lg:flex flex-col w-[210px]">
+  <div class="fixed hidden top-0 bottom-0 right-0 bg-white text-xl lg:flex flex-col w-[210px]">
+    <div class="pt-6 mb-3 mx-auto space-x-1">
+      <button class="shadow-black shadow-3xl bg-[#1d3649] w-12 h-12 mb-2 rounded-xl text-white">
+        <i class="zmdi zmdi-facebook"></i>
+      </button>
+      <button class="shadow-black shadow-3xl bg-[#1d3649] w-12 h-12 mb-2 rounded-xl text-white">
+        <i class="zmdi zmdi-twitter"></i>
+      </button>
+      <button class="shadow-black shadow-3xl bg-[#1d3649] w-12 h-12 mb-2 rounded-xl text-white">
+        <i class="zmdi zmdi-instagram"></i>
+      </button>
 
-    <div class="border-l-4 bg-slate-200 rounded-md shadow-md shadow-black border-[#1d3649] px-3 pb-4 pt-1 mb-6">
-      <p class="text-slate-500 mb-2">Accedi</p>
-      <input class="bg-transparent text-sm w-full" type="text" placeholder="Nome utente...">
-      <input class="mb-1 bg-transparent text-sm w-full" type="password" placeholder="Password...">
+    </div>
+
+    <div class="border-l-4 border-[#1d3649] px-3 pb-4 mb-6">
+      <!-- <p class="text-slate-500 mb-2">Login</p> -->
+      <input class="bg-transparent text-sm" type="text" placeholder="Nome utente...">
+      <input class="mb-1 bg-transparent text-sm" type="password" placeholder="Password...">
 
       <div class="flex items-center mt-2">
         <button class="px-5 py-2 bg-[#185cae] mr-2 rounded-md text-slate-300 text-sm text-center">Login</button>
-        <button class="text-sm py-2 bg-gray-300 text-gray-700 rounded-md flex-1 text-center">Registrati</button>
+        <button class="text-sm py-2 bg-gray-200 text-gray-700 rounded-md flex-1 text-center">Registrati</button>
       </div>
-      <button class="text-xs text-center">Recupera password...</button>
+      <button class="text-xs text-center">Recupera password</button>
     </div>
    <!-- 
     <div class="border-l-4 border-[#1d3649] px-3  pb-4 mb-6">
@@ -101,7 +97,7 @@
     </div>
   -->  
 
-    <div class="pt-1 bg-slate-200 rounded-md shadow-md shadow-black border-l-4 border-[#1d3649] px-3  pb-4 mb-6">
+    <div class="border-l-4 border-[#1d3649] px-3  pb-4 mb-6">
       <p class="text-slate-500 mb-4 text-md">Il Sondaggione!</p>
       <p class="font-bold text-xs">Inizia il 2024: come sarà questo nuovo anno a livello di diffusione editoriale dei LG?</p>
       <fieldset class="space-y-2 py-2">
